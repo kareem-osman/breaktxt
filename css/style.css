@@ -1,0 +1,80 @@
+body
+{
+    background-color: rgb(205, 206, 206);
+}
+.container
+{
+    width: 70%;
+    margin: 10px auto;
+    background-color: #FFF;
+    padding: 20px;
+    box-shadow: black 1px 2px 10px;
+    position: relative;
+}
+#txtcont
+{
+    width: 100%;
+    font-size: 1.2rem;
+    box-shadow: black 1px 1px 2px;
+    padding: 5px;
+}
+form input[type='submit']
+{
+    width: 20%;
+    display: block;
+    margin: 20px auto;
+    color: darkblue;
+    font-size: 1.6rem;
+    font-weight: bold;
+    box-shadow: black 1px 2px 2px;
+}
+.title
+{
+    margin: 30px auto;
+    text-align: center;
+}
+.title h1
+{
+   font-size: 4rem;
+   text-shadow: rgb(26, 1, 1) 1px 1px 10px;
+}
+.title h3
+{
+   font-size: 1.5rem;
+   color:blue ;
+   text-shadow: rgb(22, 0, 43) 1px 1px 10px;
+}
+.clear
+{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: purple;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+#read
+{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: purple;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+label
+{
+    font-size: 1.3rem;
+    text-shadow: rgb(26, 1, 1) 1px 1px 10px;
+}
+
+select
+{
+    font-size: 1.3rem;
+    text-shadow: rgb(26, 1, 1) 1px 1px 10px;
+    color: purple;
+}
